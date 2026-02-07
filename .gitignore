@@ -1,0 +1,11 @@
+# Release assets are uploaded to GitHub Releases, not committed.
+*.zip
+*.7z
+*.rar
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
