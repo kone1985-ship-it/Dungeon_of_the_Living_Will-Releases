@@ -12,7 +12,12 @@ DungeonTools は、**Dungeon of the Living Will** に付属する編集ツール
 - オープニング画面の「Tools」等から `DungeonTools.exe` を起動
 
 ### 1-2. 単体で起動
-- 配布物フォルダ内の `DungeonTools.exe` を直接起動
+- 配布物内の `DungeonTools.exe` を直接起動
+
+#### 配布物の場所について
+- 配布物は通常、`Dungeon_of_the_Living_Will.exe` が入っているフォルダ（ゲーム本体フォルダ）に、`DungeonTools.exe` も同梱されています。
+  - 例: `Dungeon_of_the_Living_Will/` フォルダの中に両方がある
+- もし見つからない場合は、配布ZIPを展開したフォルダ内を検索してください（`DungeonTools.exe`）。
 
 起動すると、PC上でローカルWebサーバーが立ち上がり、ブラウザにツール画面が表示されます。
 
