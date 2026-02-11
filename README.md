@@ -2,8 +2,8 @@ Dungeon of the Living Will（配布用）
 
 # はじめに
 * 配布ZIPを解凍したフォルダで作業してください。
-* 「DungeonTools.exe」を起動してください。
-* 「設定」ページで「APIキー」「モデル名」「Base URL」「画像生成モデル(任意)」を入力してください。推奨設定は下記のとおりです。
+* 「key_management.exe」を起動してください。
+* 「APIキー」「モデル名」「Base URL」「画像生成モデル(任意)」を入力してください。推奨設定は下記のとおりです。
     - APIキー： 下記で発行したもの
         - [https://console.x.ai/home](https://console.x.ai/home) から sign in もしくは create account する
         - console が開くので、左のメニューから「API Keys」を選択
