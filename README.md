@@ -12,7 +12,7 @@ Dungeon of the Living Will（配布用）
         - 左のメニューから Dashboard を選択し Puerchase をクリック もしくは画面上部に「You have no paid credits」と出るのでクリック
         - 課金額を入力。最初は $5 で十分。
         - 「Add your first card」 を押して支払情報を登録
-    - モデル名： grok-4-1-fast-reasoning
+    - モデル名： grok-4-1-fast-non-reasoning
     - Base URL： https://api.x.ai/v1
     - 画像生成モデル定義： grok-2-image-1212
     - 最後に「保存」をクリック
