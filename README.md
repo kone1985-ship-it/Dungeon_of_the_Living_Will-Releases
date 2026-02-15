@@ -1,9 +1,16 @@
 Dungeon of the Living Will（配布用）
 
-# はじめに
-* 配布ZIPを解凍したフォルダで作業してください。
-* 「key_management.exe」を起動してください。
-* 「APIキー」「モデル名」「Base URL」「画像生成モデル(任意)」を入力してください。推奨設定は下記のとおりです。
+# はじめに(!!重要!!)
+* デフォルトではお試し用のAPIキーが設定されています。
+* お試しなので以下の制限があります。
+ - 予告なく利用不能となることがあります。
+ - 利用上限が低いのでエラーが発生する可能性があります。
+    - 今月はもう遊べません・・・
+ - 悪用はしないでください(紳士協定)
+
+# 自分のAPIキーを登録する
+* 自分のAPIキーを登録すれば課金額の範囲で自由に遊べます。
+* 「key_management.exe」を起動して、「APIキー」「モデル名」「Base URL」「画像生成モデル(任意)」を入力してください。推奨設定は下記のとおりです。
     - APIキー： 下記で発行したもの
         - [https://console.x.ai/home](https://console.x.ai/home) から sign in もしくは create account する
         - console が開くので、左のメニューから「API Keys」を選択
@@ -14,11 +21,8 @@ Dungeon of the Living Will（配布用）
         - 「Add your first card」 を押して支払情報を登録
     - モデル名： grok-4-1-fast-non-reasoning
     - Base URL： https://api.x.ai/v1
-    - 画像生成モデル定義： grok-2-image-1212
+    - 画像生成モデル定義： grok-imagine-image
     - 最後に「保存」をクリック
-* 「Dungeon_of_the_Living_Will.exe」を起動してください。
-
-※「Dungeon_of_the_Living_Will.exe」と同じ場所にある「_internal」フォルダは必要です（削除/移動しないでください）。
 
 # 遊び方(画面説明)
 ## キャラクター選択
@@ -60,16 +64,16 @@ RPの使い道（最大HP/MP/SPの強化）
 
 ## キャラクター作成
 イラスト(2:3の縦長)からキャラクターを作成します。
-同梱の「DungeonTools.exe」から起動します。
+同梱の「create_character_tk.exe」を起動します。
 イラストを選んだら、名前やタグ、プロフィール、HP/MP/SP、スキルを入力してください。面倒ならAIに作成をお願いできます。
 
 保存先（ユーザデータ）:
 - `%USERPROFILE%\AppData\LocalLow\Dungeon_of_the_Living_Will\characters`
 
 ## ダンジョンの作成
-同梱の「DungeonTools.exe」から作成できます。
+同梱の「create_dungeon_tk.exe」から作成できます。
 
-- DungeonTools の左側「Pages」から「ダンジョン」を開く
+- 「create_dungeon_tk.exe」を起動する
 - ダンジョン名・画像・各種設定を入力する
 - 「保存」→「Save」で保存する（保存形式は「フォルダ」「ZIP」どちらでも可）
 
@@ -81,8 +85,8 @@ RPの使い道（最大HP/MP/SPの強化）
 ## 独自の作劇命令の作成
 AI-GMの振る舞いに追加の指示（文体・テンポ・禁止事項など）を与える「カスタムインストラクション」を作成できます。
 
-作成（DungeonTools）
-- DungeonTools の左側「Pages」から「カスタムインストラクション」を開く
+作成
+- 「create_custom_instruction_tk.exe」を起動する
 - 「名称」「簡単な説明」「本体」を入力して「保存」
 
 保存先（ユーザデータ）:
